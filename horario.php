@@ -12,11 +12,12 @@
     <?php 
 
         $semana = date("l");
-        echo "hoy es: ".$semana."<br>";
+        $hora = date("H")
+        echo "Hoy es: ".$semana."<br>";
 
         switch ($semana) {
             case 'Monday':
-                echo "Aplicaciones web"."<br>"."Horario: 8:15-11:15";
+                echo "Aplicaciones web"."Horario: 8:15-11:15";
                 echo "Recreo"."<br>"."Horario: 11:15-11:45";
                 echo "Servicios red"."<br>"."Horario: 11:45-14:45";
                 break;
@@ -73,7 +74,25 @@
     
     
     
-    
+                    switch ($hora) {
+                        case 'Monday':
+                            echo "Aplicaciones web"."Horario: 8:15-11:15";
+                            echo "Recreo"."<br>"."Horario: 11:15-11:45";
+                            echo "Servicios red"."<br>"."Horario: 11:45-14:45";
+                            break;
+                        
+                        case 'Tuesday':
+                            echo "Administracion SSOO"."<br>"."Horario: 8:15-11:15";
+                            echo "Recreo"."<br>"."Horario: 11:15-11:45";
+                            echo "Seguridad"."<br>"."Horario: 11:45-12:45";
+                            echo "Empresa"."<br>"."Horario: 12:45-14:45";
+                            break;
+            
+                        case 'Wednesday':
+                            echo "Administracion SSOO"."<br>"."Horario: 8:15-11:15";
+                            echo "Recreo"."<br>"."Horario: 11:15-11:45";
+                            echo "Servicios red"."<br>"."Horario: 11:45-14:45";
+                            break;
     
     
     
