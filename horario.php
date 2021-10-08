@@ -74,78 +74,45 @@
     
          switch ($semana) {
              case 'Monday':
-                 switch ($hora) {
-                     case '08':
-                         echo "Tenemos hora de Aplicaciones Web"
-                         break;
-                     
-                     case '09':
-                         echo "Tenemos hora de  Aplicaciones Web"
-                         break;
-
-                    case '10':
-                        echo "Tenemos hora de Aplaciones Web"
-                        break;
-                    
-                    case '11':
-                        echo "Tenemos hora de Recreo"
-                        break;
-
-                    case "12":
-                        echo "Tenemos hora de Servicios Red"
-                        break;
-
-                    case "13":
-                        echo "Tenemos hora de Servicios Red"
-                        break;
-
-                    case "14":
-                         echo "Tenemos hora de Servicios Red"
-                        break;
-
-                    case "15":
-                        echo "FIN DE CLASES"
-                        break;
+                 if ($hora == '08') {
+                     echo " Tenemos hora de Aplicaciones Web ";
+                 } elseif ($hora == '09') {
+                     echo " Tenemos hora de Aplicaciones Web ";
+                 } elseif ($hora == '10') {
+                     echo "Tenemos hora de Aplicaciones Web";
+                 } elseif ($hora == '11') {
+                     echo "Tenemos hora de Recreo"
+                 } elseif ($hora == '12') {
+                     echo "Tenemos hora de Servicios Red";
+                 } elseif ($hora == '13') {
+                     echo "Tenemos hora de Servicios Red"
+                 } elseif ($hora == '14') {
+                     echo "Tenemos hora de Servicios Red"
+                 } else {
+                     echo "Se acabó la clase"
                  }
                  break;
              
-            case 'Tuesday':
-                switch ($hora) {
-                    case '08':
-                        echo "Tenemos hora de Administracion de SS.OO"
-                        break;
-                    
-                    case '09':
-                        echo "Tenemos hora de  Administracion de SS.OO"
-                        break;
-
-                   case '10':
-                       echo "Tenemos hora de Administracion de SS.OO"
-                       break;
-                   
-                   case '11':
-                       echo "Tenemos hora de Recreo"
-                       break;
-
-                   case "12":
-                       echo "Tenemos hora de Seguridad"
-                       break;
-
-                   case "13":
-                       echo "Tenemos hora de Empresa"
-                       break;
-
-                   case "14":
-                        echo "Tenemos hora de Empresa"
-                       break;
-
-                   case "15":
-                       echo "FIN DE CLASES"
-                       break;
+             case 'Tuesday':
+                 if ($hora == '08') {
+                     echo "Tenemos hora de Administracion de SS.OO"
+                 }elseif ($hora == '09') {
+                    echo " Tenemos hora de Administracion de SS.OO ";
+                } elseif ($hora == '10') {
+                    echo "Tenemos hora de Administracion de SS.OO";
+                } elseif ($hora == '11') {
+                    echo "Tenemos hora de Recreo"
+                } elseif ($hora == '12') {
+                    echo "Tenemos hora de Seguridad";
+                } elseif ($hora == '13') {
+                    echo "Tenemos hora de Empresa"
+                } elseif ($hora == '14') {
+                    echo "Tenemos hora de Empresa"
+                } else {
+                    echo "Se acabó la clase"
                 }
-                 
                  break;
-         
+         }
          
          
          
