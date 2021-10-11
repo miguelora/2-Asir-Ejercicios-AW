@@ -112,7 +112,96 @@
                     echo "Se acabó la clase"
                 }
                  break;
-         }
+        
+                 case 'Tuesday':
+                    if ($hora == '08') {
+                        echo "Tenemos hora de Administracion de SS.OO"
+                    }elseif ($hora == '09') {
+                       echo " Tenemos hora de Administracion de SS.OO ";
+                   } elseif ($hora == '10') {
+                       echo "Tenemos hora de Administracion de SS.OO";
+                   } elseif ($hora == '11') {
+                       echo "Tenemos hora de Recreo"
+                   } elseif ($hora == '12') {
+                       echo "Tenemos hora de Seguridad";
+                   } elseif ($hora == '13') {
+                       echo "Tenemos hora de Empresa"
+                   } elseif ($hora == '14') {
+                       echo "Tenemos hora de Empresa"
+                   } else {
+                       echo "Se acabó la clase"
+                   }
+                    break;
+
+
+                    case 'Wednesday':
+                        if ($hora == '08') {
+                            echo "Tenemos hora de Administracion de SS.OO"
+                        }elseif ($hora == '09') {
+                           echo " Tenemos hora de Administracion de SS.OO ";
+                       } elseif ($hora == '10') {
+                           echo "Tenemos hora de Administracion de SS.OO";
+                       } elseif ($hora == '11') {
+                           echo "Tenemos hora de Recreo"
+                       } elseif ($hora == '12') {
+                           echo "Tenemos hora de Servicios Red";
+                       } elseif ($hora == '13') {
+                           echo "Tenemos hora de Servicios Red"
+                       } elseif ($hora == '14') {
+                           echo "Tenemos hora de Servicios Red"
+                       } else {
+                           echo "Se acabó la clase"
+                       }
+                        break;
+
+
+                        case 'Thursday':
+                            if ($hora == '08') {
+                                echo "Tenemos hora de BB.DD"
+                            }elseif ($hora == '09') {
+                               echo " Tenemos hora de BB.DD ";
+                           } elseif ($hora == '10') {
+                               echo "Tenemos hora de BB.DD";
+                           } elseif ($hora == '11') {
+                               echo "Tenemos hora de Recreo"
+                           } elseif ($hora == '12') {
+                               echo "Tenemos hora de Seguridad";
+                           } elseif ($hora == '13') {
+                               echo "Tenemos hora de Ingles"
+                           } elseif ($hora == '14') {
+                               echo "Tenemos hora de Ingles"
+                           } else {
+                               echo "Se acabó la clase"
+                           }
+                            break;
+
+                            case 'Friday':
+                                if ($hora == '08') {
+                                    echo "Tenemos hora de Ingles"
+                                }elseif ($hora == '09') {
+                                   echo " Tenemos hora de Seguridad";
+                               } elseif ($hora == '10') {
+                                   echo "Tenemos hora de Seguridad";
+                               } elseif ($hora == '11') {
+                                   echo "Tenemos hora de Recreo"
+                               } elseif ($hora == '12') {
+                                   echo "Tenemos hora de Aplicaciones web";
+                               } elseif ($hora == '13') {
+                                   echo "Tenemos hora de Empresa"
+                               } elseif ($hora == '14') {
+                                   echo "Tenemos hora de Empresa"
+                               } else {
+                                   echo "Se acabó la clase"
+                               }
+                                break;
+                
+        
+        
+        
+            }
+
+
+
          
          
          
