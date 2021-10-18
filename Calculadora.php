@@ -34,7 +34,51 @@
     
     <h2 style="color: rgb(14, 224, 25);">RESULTADO: </h2>
 
+    <?php  
 
+        function sum($num1,$num2){
+
+            $res = $num1 + $num2;
+
+            
+
+        }
+
+        function resta($num1,$num2){
+
+            $res = $num1 - $num2;
+
+            
+
+        }
+
+        function multi($num1,$num2){
+
+            $res = $num1 * $num2;
+
+            
+
+        }
+
+        function div($num1,$num2){
+
+            $res = $num1 / $num2;
+
+            
+
+        }
+
+        function mol($num1,$num2){
+
+            $res = $num1 % $num2;
+
+            
+
+        }
+
+
+
+    ?>
 
 
 </body>

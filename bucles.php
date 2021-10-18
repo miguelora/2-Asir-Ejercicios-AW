@@ -81,6 +81,27 @@
         }
     
     esNumero("Hola")
+
+
+
+    #Fusion presenta
+    function presenta($nombre,$apellido,$localidad){
+        echo "Mi nombre es: ".$nombre," ",$apellido." y soy de ".$localidad."<br>";
+
+
+    }
+
+    presenta("Miguel","Romero","Lora de estepa");
+
+    function suma($num1,$num2){
+
+        $res = $num1 + $num2;
+        print "El resultado es ".$res."<br>";
+
+    }
+
+
+    suma
     
     ?>
 
