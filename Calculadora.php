@@ -87,7 +87,6 @@
 
         #SERIE FINONACCI#
 
-        $n = 10;
 
         function fibonacci($n){
 
@@ -109,8 +108,7 @@
         }
 
         
-        fibonacci($n);
-
+    
         switch ($operador) {
             case 'sum':
                 sum($numero1,$numero2);
@@ -136,6 +134,9 @@
                 break;
             case 'exp':
                 exp($numero1,$numero3);
+                break;
+            case 'Fibonacci':
+                fibonacci($munero,);
                 break;
         }
 
