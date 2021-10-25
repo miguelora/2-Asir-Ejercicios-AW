@@ -9,120 +9,138 @@
 <body>
 
 
-    <fieldset>
-        <legend>Calculadora Asir</legend>
+    <?php 
+        $numero1 = $_POST["numero1"];
+        $numero2 = $_POST["numero2"];
+        $numero3 = $_POST["numero3"];
+        $operador = $_POST["operador"];
+    
         
+        function sum($numero1,$numero2){
 
-    
-
-
-    <p>Número 1: <input type=int name="Número 1" value="0" required></p>
-
-    <p>Número 2:
-        <input type="int" name="Número 2" value="0" required></p>
-    
-    <p>Número exp: <input type=int name="Número exp" value="0" required></p>
-    
-    <button name="Sum" type="submit">+</button>
-    <button name="Res" type="submit" >-</button>
-    <button name="Mul" type="submit">*</button>
-    <button name="Div" type="submit">/</button>
-    <button name="Mol" type="submit">%</button>
-    <button name="cua" type="submit">√</button>
-    <button name="cub" type="submit">∛</button>
-    <button name="exp" type="submit">exp</button>
-    <button name="C" type="reset">C</button>
-    
-    
-    <br><br>
-    <button name="OP">Operar</button>
-
-    </fieldset>
-    
-    <h2 style="color: rgb(14, 224, 25);">RESULTADO: </h2>
-
-    <?php  
-
-        function sum($num1,$num2){
-
-            $res = $num1 + $num2;
+            $res = $numero1 + $numero2;
+            print "EL RESULTADO ES".$res;
 
             
 
         }
 
-        function resta($num1,$num2){
+        function resta($numero1,$numero2){
 
-            $res = $num1 - $num2;
-
+            $res = $numero1 - $numero2;
+            print "EL RESULTADO ES"."<br>".$res;
             
 
         }
 
-        function multi($num1,$num2){
+        function multi($numero1,$numero2){
 
-            $res = $num1 * $num2;
-
+            $res = $numero1 * $numero2;
+            print "EL RESULTADO ES"."<br>".$res;
             
 
         }
 
-        function div($num1,$num2){
+        function div($numero1,$numero2){
 
-            $res = $num1 / $num2;
-
+            $res = $numero1 / $numero2;
+            print "EL RESULTADO ES"."<br>".$res;
             
 
         }
 
-        function mol($num1,$num2){
+        function mol($numero1,$numero2){
 
-            $res = $num1 % $num2;
-
+            $res = $numero1 % $numero2;
+            print "EL RESULTADO ES"."<br>".$res;
             
 
         }
         
-        function cua($num3){
+        function cua($numero3){
 
-            $res = pow($num3, 2);
-
+            $res = sqrt(float($numero3));
+            print "EL RESULTADO ES "."<br>".$res;
             
 
         }
 
-        function cub($num1,$num2){
+        function cub($numero3){
 
-            $res = pow($num3, 3);
-
+            $res = pow($numero3, 3);
+            print "EL RESULTADO ES "."<br>".$res;
             
 
         }
 
-        function exponente($num1,$num3){
+        function exponente($numero1,$numero3){
 
-            $res = pow($num1, $num3);
-
+            $res = pow($numero1, $numero3);
+            print "EL RESULTADO ES "."<br>".$res;
             
 
         }
+
+       
+       
 
 
         #SERIE FINONACCI#
 
-        function fibonacci($n)
-        {
-            $fibonacci  = [0,1];
- 
-            for($i=2;$i<=$n;$i++)
-        {
-                $fibonacci[] = $fibonacci[$i-1]+$fibonacci[$i-2];
-         }
-            echo $fibonacci[$n];
+        $n = 10;
+
+        function fibonacci($n){
+
+            $numero1 = 0;
+            $numero2 = 1;
+
+            $cont = 0;
+
+            while ($cont<$n) {
+                echo " ".$numero1;
+                $numero3 = $numero2 + $numero1;
+                $numero1 = $numero2;
+                $numero2 = $numero3;
+                $cont = $cont + 1;
+            }
+
+
+
+        }
+
+        
+        fibonacci($n);
+
+        switch ($operador) {
+            case 'sum':
+                sum($numero1,$numero2);
+                break;
+            
+            case'resta':
+                resta($numero1,$numero2);
+                break;
+            case 'mul':
+                mul($numero1,$numero2);
+                break;
+            case 'div':
+                div($numero1,$numero2);
+                break;
+            case 'mol':
+                mol($numero1,$numero2);
+                break;
+            case 'cua':
+                cua($numero3);
+                break;
+            case 'cub':
+               cub($numero3);
+                break;
+            case 'exp':
+                exp($numero1,$numero3);
+                break;
         }
 
 
-    fibonacci(10);
+
 
 
 
