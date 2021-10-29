@@ -15,6 +15,18 @@
         $operador = $_POST["despliega"];
 
         
+        function cuenta($recoge1){
+
+            $res = strlen($recoge1);
+            print "La longitud es ".$res;
+
+        }
+
+        function palabras($recoge2);{
+
+            $res = str_word_count($recoge2)
+
+        }
 
 
 
