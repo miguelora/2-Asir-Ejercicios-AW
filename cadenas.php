@@ -22,20 +22,63 @@
 
         }
 
-        function palabras($recoge2);{
+        function palabras($recoge2){
 
-            $res = str_word_count($recoge2)
+            $res = str_word_count($recoge2);
+            print "La palabra es ".$res;
+
+        }
+
+        function invierte($recoge1){
+
+            $res = strrev($recoge1);
+            print = "La inversión es ".$res;
+
+
+        }
+
+        function busqueda($recoge1,$recoge2){
+
+            $res = strpos($recoge1,$recoge2);
+            print = "La busqueda es ".$res;
+        
+        
+        
+        
+        }
+
+
+        function replace($recoge3,$recoge2,$recoge1){
+
+            $res = str_replace($recoge3,$recoge2,$recoge1);
+            print "El reemplazo es ".$res;
+
+
+
 
         }
 
 
 
+        switch ($operador) {
+            case 'carac':
+                cuenta($recoge1);
+                break;
+            
+            case'palab':
+                palabras($recoge2);
+                break;
+            case 'invert':
+                invierte($recoge1);
+                break;
+            case 'bus':
+                busqueda($recoge1,$recoge2);
+                break;
+            case 'reem':
+                replace($recoge3,$recoge2,$recoge1);
+                break;
 
-
-
-
-
-
+        }
 
 
 
