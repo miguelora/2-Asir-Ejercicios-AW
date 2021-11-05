@@ -44,9 +44,15 @@
         }
 
         
+        ##ARRAYS ASOCIATIVOS##
         
-        
-        
+        $alumno = array("Nombre" => "Miguel",
+                        "Apellidos" => "Kerry",
+                        "Edad" =>23,
+                        "estaAprobado"=>false);
+
+
+                    echo $alumno["Nombre"];
         
         
         
