@@ -7,33 +7,36 @@
     <title>Vuelos</title>
 </head>
 <body>
+    
     <fieldset>
 
         <legend>Gestión de vuelos</legend>
+        <form action="vuelos.php" method="post" target="_blank" >
             <fieldset>
                 <legend>Vuelo 1</legend>
-                    <form action="vuelos.php" method="post" ></form>
-                        Código<input type="text" name="codigo1" value=""><br>
-                        Ciudad Origen<input type="text" name="origen1" value=""><br>
-                        Ciudad Destino<input type="text" name="destino1" value=""><br>
-                        Precio<input type="number" name="precio1" value="0"><br>
-                        Fecha Salida<input type="date" name="fecha1" value=""><br>
+                    
+                        Código<input type="text" name="infovuelo1[codigo1]" value="" required><br>
+                        Ciudad Origen<input type="text" name="infovuelo1[origen1]" value="" required><br>
+                        Ciudad Destino<input type="text" name="infovuelo1[destino1]" value="" required><br>
+                        Precio<input type="text" name="infovuelo1[precio1]" value="0" required><br>
+                        Fecha Salida<input type="date" name="infovuelo1[fecha1]" value="" required><br>
+                    
                     
 
             </fieldset>
             <fieldset>
                 <legend>Vuelo 2</legend>
-                    <form action="vuelos.php" method="post" ></form>
-                        Código<input type="text" name="codigo2" value=""><br>
-                        Ciudad Origen<input type="text" name="origen2" value=""><br>
-                        Ciudad Destino<input type="text" name="destino2" value=""><br>
-                        Precio<input type="number" name="precio2" value="0"><br>
-                        Fecha Salida<input type="date" name="fecha2" value=""><br>
+                        Código<input type="text" name="infovuelo2[codigo2]" value="" required><br>
+                        Ciudad Origen<input type="text" name="infovuelo2[origen2]" value="" required><br>
+                        Ciudad Destino<input type="text" name="infovuelo2[destino2]" value="" required><br>
+                        Precio<input type="text" name="infovuelo2[precio2]" value="0" required><br>
+                        Fecha Salida<input type="date" name="infovuelo2[fecha2]" value="" required><br>
+           
 
             </fieldset>
             <fieldset>
                 <legend>Herramientas</legend>
-                    <select name="herramientas">
+                    <select  name="herramientas" >
                         <option value="une">Une vuelos</option>
                         <option value="dif">Diferencia entre Vuelos</option>
                         <option value="Ord">Ordenar Vuelos</option>
@@ -51,7 +54,7 @@
 
             </fieldset>
 
-
+        </form>
 
 
 
