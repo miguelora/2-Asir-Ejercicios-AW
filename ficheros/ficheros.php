@@ -18,7 +18,7 @@
     //ESCRIBIR EN EL FICHERO//
     $fichero1 = fopen("pruebafichero.txt","w") or die("Fallo al abrir fichero");
     $nuevotexto = "Que te gustan las variables";
-    echo fwrite($fichero1,"prefiero redbull");
+    fwrite($fichero1,"prefiero redbull");
     fclose($fichero1);
 
 
