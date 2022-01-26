@@ -41,27 +41,14 @@ $duracion=array(
 );
 
 $pasajeros=array(
-    'Vueling-AE12'=>90,
-    'Volotea-EA21'=>75,
-    'Iberia-WE44'=>100,
-    'Ryanair-EW44'=>60,
-    'Vueling-ZK87'=>77,
-    'Volotea-UA21'=>93,
-    'Iberia-WH44'=>86,
-    'Ryanair-EL00'=>75,
-    'Vueling-AE12'=>87,
-    'Volotea-EA21'=>97,
-    'Iberia-WE44'=>81,
-    'Ryanair-EW44'=>75,
-    'Vueling-ZK87'=>87,
-    'Volotea-UA21'=>90,
-    'Iberia-WH44'=>44,
-    'Ryanair-EL00'=>67,
-    'Vueling-AE12'=>86,
-    'Volotea-EA21'=>66,
-    'Iberia-WE44'=>40,
-    'Ryanair-EW44'=>77,
-    'Vueling-ZK87'=>82
+    'Vueling-AE12'=>array('90','87','86'),
+    'Volotea-EA21'=>array('75','97','66'),
+    'Iberia-WE44'=>array('100','81','40'),
+    'Ryanair-EW44'=>array('60','75','77'),
+    'Vueling-ZK87'=>array('77','87','82'),
+    'Volotea-UA21'=>array('93','90'),
+    'Iberia-WH44'=>array('86','44'),
+    'Ryanair-EL00'=>array('75','67')
 );
 
 
