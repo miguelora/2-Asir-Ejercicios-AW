@@ -8,7 +8,7 @@ $destino=array(
     array('Vuelo'=>'Ryanair-EW44','Desti'=>'Madrid'),
     array('Vuelo'=>'Vueling-ZK87','Desti'=>'Lima'),
     array('Vuelo'=>'Volotea-UA21','Desti'=>'Bilbao'),
-    array('Vuelo'=>'Iberia-WH44 ','Desti'=>'Roma'),
+    array('Vuelo'=>'Iberia-WH44','Desti'=>'Roma'),
     array('Vuelo'=>'Ryanair-EL00','Desti'=>'Madrid'),
     array('Vuelo'=>'Vueling-AE12','Desti'=>'Roma'),
     array('Vuelo'=>'Volotea-EA21','Desti'=>'Roma'),

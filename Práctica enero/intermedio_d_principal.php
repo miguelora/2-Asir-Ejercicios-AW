@@ -13,6 +13,9 @@ totalmin($duracion,$selector);
 echo "<br>";
 echo "<br>";
 muestrafabric($fabricante,$selector);
+echo "<br>";
+echo "<br>";
+last($destino,$selector);
 
 
 
