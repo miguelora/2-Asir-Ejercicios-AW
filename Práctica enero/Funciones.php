@@ -30,9 +30,24 @@ function totalmin($duracion,$selector){
         }
     }
     echo "Los minutos totales del vuelo.".$selector."es :".$numero1;
+
     
 }
 
+
+function muestrafabric($fabricante,$selector){
+
+   
+
+    foreach ($fabricante as $avion) {
+        $vuelos=$avion['Vuelo'];
+        $fabric=$avion['fabric'];
+
+        if ($vuelos==$selector) {
+            echo "El fabricante del avion".$selector."es: ".$fabric;
+        }
+    }
+}
 
 
 
