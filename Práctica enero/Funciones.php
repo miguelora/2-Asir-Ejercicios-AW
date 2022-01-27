@@ -30,6 +30,7 @@ function totalmin($duracion,$selector){
         }
     }
     echo "Los minutos totales del vuelo.".$selector."es :".$numero1;
+    
 }
 
 
