@@ -2,53 +2,70 @@
 
 
 $destino=array(
-    'Vueling-AE12'=>'Milan',
-    'Volotea-EA21'=>'Roma',
-    'Iberia-WE44'=>'Estambul',
-    'Ryanair-EW44'=>'Madrid',
-    'Vueling-ZK87'=>'Lima',
-    'Volotea-UA21'=>'Bilbao',
-    'Iberia-WH44'=>'Roma',
-    'Ryanair-EL00'=>'Madrid',
-    'Vueling-AE12'=>'Roma',
-    'Volotea-EA21'=>'Roma'
+    array('Vuelo'=>'Vueling-AE12','Desti'=>'Milán'),
+    array('Vuelo'=>'Volotea-EA21','Desti'=>'Roma'),
+    array('Vuelo'=>'Iberia-WE44','Desti'=>'Estambul'),
+    array('Vuelo'=>'Ryanair-EW44','Desti'=>'Madrid'),
+    array('Vuelo'=>'Vueling-ZK87','Desti'=>'Lima'),
+    array('Vuelo'=>'Volotea-UA21','Desti'=>'Bilbao'),
+    array('Vuelo'=>'Iberia-WH44 ','Desti'=>'Roma'),
+    array('Vuelo'=>'Ryanair-EL00','Desti'=>'Madrid'),
+    array('Vuelo'=>'Vueling-AE12','Desti'=>'Roma'),
+    array('Vuelo'=>'Volotea-EA21','Desti'=>'Roma'),
+
 );
 
 $fabricante=array(
-    'Vueling-AE12'=>'Boeing',
-    'Volotea-EA21'=>'Airbus',
-    'Iberia-WE44'=>'Airbus',
-    'Ryanair-EW44'=>'Boeing',
-    'Vueling-ZK87'=>'Airbus',
-    'Volotea-UA21'=>'Boeing',
-    'Iberia-WH44'=>'Boeing',
-    'Ryanair-EL00'=>'Airbus',
+    array('Vuelo'=>'Vueling-AE12','fabric'=>'Boeing'),
+    array('Vuelo'=>'Volotea-EA21','fabric'=>'Airbus'),
+    array('Vuelo'=>'Iberia-WE44','fabric'=>'Airbus'),
+    array('Vuelo'=>'Ryanair-EW44','fabric'=>'Boeing'),
+    array('Vuelo'=>'Vueling-ZK87','fabric'=>'Airbus'),
+    array('Vuelo'=>'Volotea-UA21','fabric'=>'Boeing'),
+    array('Vuelo'=>'Iberia-WH44','fabric'=>'Boeing'),
+    array('Vuelo'=>'Ryanair-EL00','fabric'=>'Airbus'),
 );
 
 $duracion=array(
-    'Vueling-AE12'=>'120',
-    'Volotea-EA21'=>'100',
-    'Iberia-WE44'=>'340',
-    'Ryanair-EW44'=>'45',
-    'Vueling-ZK87'=>'600',
-    'Volotea-UA21'=>'65',
-    'Iberia-WH44'=>'90',
-    'Ryanair-EL00'=>'50',
-    'Vueling-AE12'=>'115',
-    'Volotea-EA21'=>'100',
-    'Iberia-WE44'=>'85',
-    'Ryanair-EW44'=>'360'
+    array('Vuelo'=>'Vueling-AE12','Minutos'=>'120'),
+    array('Vuelo'=>'Volotea-EA21','Minutos'=>'100'),
+    array('Vuelo'=>'Iberia-WE44','Minutos'=>'340'),
+    array('Vuelo'=>'Ryanair-EW44','Minutos'=>'45'),
+    array('Vuelo'=>'Vueling-ZK87','Minutos'=>'600'),
+    array('Vuelo'=>'Volotea-UA21','Minutos'=>'65'),
+    array('Vuelo'=>'Iberia-WH44','Minutos'=>'90'),
+    array('Vuelo'=>'Ryanair-EL00 ','Minutos'=>'50'),
+    array('Vuelo'=>'Vueling-AE12','Minutos'=>'115'),
+    array('Vuelo'=>'Volotea-EA21','Minutos'=>'100'),
+    array('Vuelo'=>'Iberia-WE44','Minutos'=>'85'),
+    array('Vuelo'=>'Ryanair-EW44','Minutos'=>'360'),
+    
 );
 
 $pasajeros=array(
-    'Vueling-AE12'=>array('90','87','86'),
-    'Volotea-EA21'=>array('75','97','66'),
-    'Iberia-WE44'=>array('100','81','40'),
-    'Ryanair-EW44'=>array('60','75','77'),
-    'Vueling-ZK87'=>array('77','87','82'),
-    'Volotea-UA21'=>array('93','90'),
-    'Iberia-WH44'=>array('86','44'),
-    'Ryanair-EL00'=>array('75','67')
+    array('Vuelo'=>'Vueling-AE12','Personas'=>'90'),
+    array('Vuelo'=>'Volotea-EA21','Personas'=>'75'),
+    array('Vuelo'=>'Iberia-WE44','Personas'=>'100'),
+    array('Vuelo'=>'Ryanair-EW44','Personas'=>'60'),
+    array('Vuelo'=>'Volotea-UA21','Personas'=>'93'),
+    array('Vuelo'=>'Iberia-WH44','Personas'=>'86'),
+    array('Vuelo'=>'Ryanair-EL00','Personas'=>'75'),
+    array('Vuelo'=>'Vueling-AE12','Personas'=>'87'),
+    array('Vuelo'=>'Volotea-EA21','Personas'=>'97'),
+    array('Vuelo'=>'Iberia-WE44','Personas'=>'81'),
+    array('Vuelo'=>'Ryanair-EW44','Personas'=>'75'),
+    array('Vuelo'=>'Vueling-ZK87','Personas'=>'87'),
+    array('Vuelo'=>'Volotea-UA21','Personas'=>'90'),
+    array('Vuelo'=>'Iberia-WH44','Personas'=>'84'),
+    array('Vuelo'=>'Ryanair-EL00','Personas'=>'67'),
+    array('Vuelo'=>'Vueling-AE12','Personas'=>'86'),
+    array('Vuelo'=>'Volotea-EA21','Personas'=>'66'),
+    array('Vuelo'=>'Ryanair-EL00','Personas'=>'75'),
+    array('Vuelo'=>'Iberia-WE44','Personas'=>'40'),
+    array('Vuelo'=>'Ryanair-EW44','Personas'=>'77'),
+    array('Vuelo'=>'Vueling-ZK87','Personas'=>'82'),
+    
+
 );
 
 
