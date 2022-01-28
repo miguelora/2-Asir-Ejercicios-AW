@@ -71,20 +71,28 @@ function last($destino,$selector){
 
 }
 
-//FUNCIONES DE EST_CIU//
+//FUNCIONES DE ESTADISTICAS DE CIUDADES//
 
-//function totalciu($destino){
+function maxvisit($destino){
+    foreach ($destino as $avion) {
+        $vuelos=$avion['Vuelo'];
+        $Desti=$avion['Desti'];
+        print "Las ciudades mas visitadas son: ".array($Desti);
+    }
+}
 
-//        $cuentaciu='0';
+function lessvisit($destino){
+   $contador=0
+    foreach ($destino as $avion) {
+       $pasajeros as $avion['Vuelo'];
+       $pasajeros as $avion['Desti'];
+       array_count_values($destino, 'Desti');
+       $total=array_count_values($destino,['Desti']-$contador;);
+   } 
+    echo "Las ciudades menos visitadas son :".$total;
+   
 
-  //      foreach ($vuelos as $avion) {
-    //        $vuelos=$avion['Vuelo'];
-      //      $Desti=$avion;
-        //}
-
-        //echo count($destino);
-
-
+}
 
 
 //FUNCIONES DE AVION//
@@ -167,6 +175,35 @@ function mediapasajerosavion($pasajeros,$info_avion){
     } 
     echo "La media de pasajeros del avion ".$info_avion."es :".$numero/$contador; 
 } 
+
+//Funciones de aeropuerto//
+
+function totalpasajeros2($pasajeros){
+    $totalespasajeros2=array_count_values($pasajeros,['personas']);
+    echo "Los pasajeros totales de todos los vuelos son: ".$totalespasajeros2;
+
+
+
+function avionfabric($fabricante){
+    $avifabric=array_count_values($fabricante,['fabric']);
+    echo "Los aviones por fabricante totales son: ".$avifabric;
+}
+
+function maxdesti($destino){
+    $avidesti=array_count_values($fabricante,['Desti']);
+    echo "Los destinos con más conexiones son ".$avidesti;
+
+}
+
+
+function mindesti($detino){
+    $contador=8
+    $minconex=array_count_values($fabricante,['Desti'])-$contador;
+    echo "Los destinos con menos conexiones son: ".$minconex;
+
+}
+
+
 
 
 
